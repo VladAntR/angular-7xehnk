@@ -1,0 +1,61 @@
+.contacts{
+    padding-top: 160px;
+}
+
+.section__title{
+    margin-bottom: 80px;
+    line-height: 1.5;
+}
+
+.section__title span{
+    color: #EE6D95;
+    font-size: 18px;
+}
+
+.subTitle{
+    font-size: 36px;
+}
+
+.email, .phones, .facebook{
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.email span{
+    color: #EE6D95;
+    margin-left: 1%;
+}
+
+.facebook{
+    display: flex;
+
+    &_text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.facebook span{
+    color: #EE6D95;
+    margin-left: 1%;
+}
+
+img{
+    margin: 3px;
+}
+
+.content, .phones{
+    display: flex;
+    align-items: center;
+}
+
+.phones img{
+    margin-right: 10px;
+}
+
+.phones span{
+    color: #EE6D95;
+    margin-right: 1%;
+}
+

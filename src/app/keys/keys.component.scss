@@ -1,0 +1,55 @@
+.keys {
+	padding: 160px 0;
+}
+
+.section__title{
+    text-align: center;
+    overflow: hidden;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.section__title span{
+    color: #EE6D95;
+    font-size: 18px;
+}
+
+.pricilpeWork{
+    &_wrapper{
+        margin-top: 80px;
+        padding: 40px 64px;
+        border:solid 1px #EE6D95;
+        border-radius: 10px;
+    }
+
+    &_btn{
+        width: 20%;
+        border-radius: 50px;
+        background-color: #EE6D95;
+        color: #ffffff;
+        height: 42px;
+        display: block;
+        margin: 0 auto;
+        transition: background .3s ease-in-out;
+        box-shadow: 0 4px 20px rgba($color: #000000, $alpha: .25);
+
+        &:hover{
+            background-color: #ff447f;
+            box-shadow: 0 4px 10px rgba($color: #000000, $alpha: .25);
+        }
+        
+        a{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+}
+
+.text_content{
+    margin-bottom: 24px;
+}
+

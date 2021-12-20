@@ -1,0 +1,42 @@
+<header class="header" id="header">
+    <div class="container">
+      <!-- Шапка -->
+      <div class="head">
+        <div class="row align-items-center">
+          <div class="col-xl-3 col-lg-2 col-auto">
+            <a href="#" class="head__logo">
+              <img src="assets/img/logo.png" alt="Логотип компанії">
+            </a>
+          </div>
+
+          <!--Navigation-->
+          <app-navigation></app-navigation>
+          
+          <div class="col-lg-3 col-auto flex-grow-1 d-flex justify-content-end">
+            <a href="#the_bestWork" class="head__btn button">
+                {{navButtonText}}
+            </a>
+          </div>
+        </div>
+      </div><!-- Шапка конец -->
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="offer">
+            <h1 class="offer__title">
+                {{TitleAboutMe}}
+            </h1>
+            <p class="offer__disc">
+                {{textAboutMe}}
+            </p>
+            <a href="#" class="offer__link">{{button}}</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center" >
+          <div class="images" id="scene">
+            <img src="assets/img/My photo.png" alt="photo man what to do good work">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>

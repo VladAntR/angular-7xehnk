@@ -1,0 +1,180 @@
+
+body, p, div, li, ul, a, h1, h2, h3, h4, h5, h6, span, button, input {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a { 
+	text-decoration: none;
+	color: #fff;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.01em;
+	color: #4C5267;
+}
+
+
+.head li a:hover {
+	color: #6e3281;
+}
+
+.button {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 150%;
+	background: #EE6D95;
+	border-radius: 30px;
+	padding: 16px 0;
+	text-align: center;
+	display: block;
+	transition: background-color .3s ease-in-out;
+	width: 100%;
+	border: none;
+	color: #fff;
+	max-width: 224px;
+}
+
+.button:hover {
+	background-color: #f0497e;
+}
+
+.button:active {
+	box-shadow: 0px 5px 5px rgba(150, 6, 52, 0.2);
+}
+
+/* Медиа */
+
+@media screen and (max-width: 991px) {
+	.hamburger {
+		display: block;
+	}
+
+	.head__menu {
+		display: none;
+		position: absolute;
+		background-color: #fff;
+		border-radius: 5px;
+		width: 181px;
+		height: 252px;
+		right: 0;
+		top: 55px;
+		padding: 55px 5px 20px 35px;
+	}
+
+	.head__item:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.head__menu li {
+		margin-bottom: 10px;
+	}
+
+	.head__menu a {
+		font-size: 15px;
+		color: #4C5267;
+	}
+
+	.head__links {
+		flex-direction: column;
+	}
+
+	.menu-close {
+		display: block;
+	}
+
+	.images {
+		max-height: 390px;
+	}
+
+	.images__pic,.images__chat-one {
+		display: none;
+	}
+	
+	.illustration {
+		margin: 30px auto 0;
+	}
+	.menu {
+		margin-top: 60px;
+	}
+	.person:nth-child(2) {
+		display: none;
+	}
+	.form {
+		position: static;
+		width: 100%;
+		max-width: 450px;
+		box-shadow: 0px 10px 30px rgba(0, 6, 52, 0.1);
+		margin: 30px auto 0;
+	}
+	.map {
+		padding-bottom: 80px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.person:not(:last-child) {
+		margin-right: 0;
+	}
+	.person:nth-child(3) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.images__chat-two, .images__center, .images__bg {
+		display: none;
+	}
+	.images {
+		max-height: none;
+	}
+	.section__title {
+		font-size: 25px;
+	}
+	.number {
+		margin-bottom: 60px;
+	}
+	.illustration {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.offer {
+		margin-top: 60px;
+	}
+	.offer__title {
+		font-size: 25px;
+	}
+	.head__btn {
+		display: none;
+	}
+	.design__info {
+		max-width: none;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #808080;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.offer__title {
+		font-size: 22px;
+	}
+	.section__title {
+		font-size: 22px;
+	}
+}

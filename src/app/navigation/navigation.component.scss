@@ -1,0 +1,28 @@
+.head__menu {
+	position: relative;
+}
+
+.head__item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.hamburger {
+	display: none;
+}
+
+.hamburger img {
+	display: block;
+}
+
+.menu-close {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	display: none;
+	background: none;
+	border: none;
+	font-size: 26px;
+	font-weight: 700;
+	color: #858585;
+}
+

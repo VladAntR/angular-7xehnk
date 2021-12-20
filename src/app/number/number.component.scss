@@ -1,0 +1,33 @@
+.home_section__title{
+    text-align: center;
+}
+
+.home_subTitle{
+    font-size: 36px;
+}
+
+.home_section__title span, .section__title span{
+    color: #EE6D95;
+    font-size: 18px;
+}
+
+.home_section__title, .section__title{
+    overflow: hidden;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+.number span{
+    position: absolute;
+    top: 20%;
+    font-size: 32px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.number__desc{
+    text-align: center;
+    margin: 16px 0 0 0 ;
+}
